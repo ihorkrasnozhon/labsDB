@@ -1,0 +1,5 @@
+SELECT *
+FROM cities
+WHERE population BETWEEN 150000 AND 350000 AND region IN ('S', 'C', 'N')
+ORDER BY name
+LIMIT 20;
