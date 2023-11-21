@@ -7,7 +7,7 @@ SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
 CREATE TABLE stations (
     id INT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
-    line VARCHAR(255) NOT NULL,
+    linia VARCHAR(255) NOT NULL,
 )
 
 CREATE TABLE metro_lines (
@@ -21,7 +21,7 @@ INSERT INTO metro_lines(id, name, color) VALUES
 (2, 'Салтівська' , 'Синій'),
 (3, 'Олексіївська' , 'Зелений')
 
-INSERT INTO stations(id, name, line) VALUES
+INSERT INTO stations(id, name, linia) VALUES
 (1, 'Холодна гора' , 'Холодногірсько-Заводська'),
 (2, 'Південний вокзал' , 'Холодногірсько-Заводська'),
 (3, 'Центральний ринок' , 'Холодногірсько-Заводська'),
